@@ -7,10 +7,9 @@ const MyComp4 = () => {
   }
   return (
     <>
-    <p style = {style}>Текст</p>
+    <h1 style = {style}>Текст</h1>
     <button onClick = {()=> setState(state === 'red' ? 'green' : 'red')}>Сменить цвет текста</button>
     </>
   )
 }
-
 export default MyComp4
