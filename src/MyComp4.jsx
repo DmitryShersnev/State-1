@@ -1,15 +1,18 @@
-import {useState} from 'react'
+import { useState } from "react";
 
 const MyComp4 = () => {
-  const [state, setState] = useState ('red')
+  const [state, setState] = useState("red");
   const style = {
-    color: state
-  }
+    color: state,
+  };
   return (
     <>
-    <h1 style = {style}>Текст</h1>
-    <button onClick = {()=> setState(state === 'red' ? 'green' : 'red')}>Сменить цвет текста</button>
+      <h1 style={style}>Текст</h1>
+      <button onClick={() => setState(state === "red" ? "green" : "red")}>
+        Сменить цвет текста
+      </button>
     </>
-  )
-}
-export default MyComp4
+  );
+};
+
+export default MyComp4;
