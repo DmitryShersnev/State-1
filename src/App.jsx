@@ -8,11 +8,11 @@ function App() {
   return (
     <>
       <MyComp1 />
-      <hr></hr>
+      <hr />
       <MyComp2 />
-      <hr></hr>
+      <hr />
       <MyComp3 />
-      <hr></hr>
+      <hr />
       <MyComp4 />
     </>
   );
